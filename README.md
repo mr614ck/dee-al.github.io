@@ -1,0 +1,2 @@
+# domains
+create free subdomain 
