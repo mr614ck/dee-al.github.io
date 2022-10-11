@@ -29,8 +29,14 @@ jobs:
           repository: mediafs/asetku
           path: asetku
       - name: Proses Mohon tunggu
-        run: |
-        ls
-        php tes1.php
+        run: php tes1.php
         working-directory: asetku
+        
+      - name: cek server
+        run: |
+          ls
+          cd
+          cd asetku
+          ls
+        
 
