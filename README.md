@@ -24,12 +24,13 @@ foo.co.aw
 1. anda wajib fork halaman ini
 2. edit file **fsdomain.json**
 ```json
-    {
+{
     "hostku": "Nama Host",
     "target": "Link Repositori"
 }
 ```
-   Jika ingin menambahkan subdomain jangan lupa sesudah tag } berilah tanda koma ',' lalu tambahkan lagi domain yang ingin ditambahkan
+Jika ingin menambahkan subdomain jangan lupa sesudah tag } berilah tanda koma ',' lalu tambahkan lagi domain yang ingin ditambahkan
+
 3. jangan lupa untuk lakukan **pull request**
 4. buat lah sebuah file diproject anda dengan nama **CNAME** berikut isi file **CNAME*
 ```markdown
