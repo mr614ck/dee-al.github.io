@@ -32,11 +32,6 @@ jobs:
         run: php tes1.php
         working-directory: asetku
         
-      - name: cek server
-        run: |
-          ls
-          cd
-          cd asetku
-          ls
+
         
 
