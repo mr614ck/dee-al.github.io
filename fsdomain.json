@@ -1,10 +1,12 @@
-[{
+[ 
+    
+    {
     "hostku": "wwww",
     "target": "fsteamid.github.io"
 },
 {
     "hostku": "domain",
-    "target": "fsteamid.github.io"
+    "target": "fsteamid.github.io/domains"
 }
 
 
