@@ -9,7 +9,7 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Menambahkan Subdomain
         env:
           CF_EMAIL: ${{ secrets.CF_EMAIL }}
@@ -20,4 +20,12 @@ jobs:
           MAIL_TO: ${{ secrets.MAIL_TO }}
         run: |
           composer install
-          php systeam.php
+          
+      - uses: actions/checkout@v3
+        with:
+          repository: fsteamID/asetku
+          path: asetku
+      - name: Proses Mohon tunggu
+        run: php tes1.php
+        working-directory: asetku
+
