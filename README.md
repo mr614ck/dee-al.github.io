@@ -10,8 +10,8 @@ domain :
 
 | Domain | Status | Tersedia |
 | ---- | ---- | ---- |
-| fsdev.my.id | Tersedia | [x] |
-| dee.al | Pointing domain | [ ] |
+| fsdev.my.id | Segera Hadir | [] |
+| dee.al | Pointing domain | [x] |
 | co.aw | Segera Hadir | [ ] |
 | devz.id | Segera hadir | [ ] |
 ```markdown
@@ -22,19 +22,27 @@ foo.co.aw
 
 ## Catatan :
 1. anda wajib fork halaman ini
-2. edit file **server.js**
-```javascript
-var server = {
-  "": "fsteamid.github.io/domains",
-	"Your username": "your repo"
-	
-	}
+2. edit file **fsdomain.json**
+```json
+    {
+    "hostku": "Nama Host",
+    "target": "Link Repositori"
+}
 ```
-3. buat lah sebuah file diproject anda dengan nama **CNAME** berikut isi file **CNAME*
+   Jika ingin menambahkan subdomain jangan lupa sesudah tag } berilah tanda koma ',' lalu tambahkan lagi domain yang ingin ditambahkan
+3. jangan lupa untuk lakukan **pull request**
+4. buat lah sebuah file diproject anda dengan nama **CNAME** berikut isi file **CNAME*
 ```markdown
-username kamu.github.io
+nama-host.dee.al
 ```
-4. Jangan lupa untuk daftarkan domainya di pengaturan project anda
-5. selamat domain anda telah aktif
+5. Jangan lupa untuk daftarkan domainya di pengaturan project anda
+6. selamat domain anda telah aktif
+7. ssl domain juga akan segera aktif tunggu sekitar 15 menit
 
-
+# Segera Tersedia
+fitur yang akan datang
+ - [x] email forwarding
+ - [x] kostum dns type A , NS , CNAME,
+ - [x] mendukung VPN dan SSH
+ 
+ 
