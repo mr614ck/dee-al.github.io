@@ -4,14 +4,32 @@ create free subdomain
 # indonesia
 ganti subdomain github,gitlab,vercel anda dengan extensi berikut
 
-domain :
+
+# List Dukungan Domain :
+ - [x] **github**
+ - [ ] gitlab
+ - [ ] vercel
+ - [ ] blogger
+ - [ ] Lainya
+
+# SSL (MODE RANDOM) :
+ - [x] **Letsencrypt**
+ - [x] **Google Trust Services LLC**
+ - [x] **Cloudflare SSL**
+
+# DNS KOSTUM:
+ - [x] CNAME
+ - [ ] A
+ - [ ] NS
+
+# Domain : 
  - [x] Tersedia
  - [ ] segera hadir
 
 | Domain | Status | Tersedia |
 | ---- | ---- | ---- |
-| fsdev.my.id | Segera Hadir | [] |
-| dee.al | Pointing domain | [x] |
+| fsdev.my.id | Segera Hadir | [ ] |
+| dee.al | Tersedia | [x] |
 | co.aw | Segera Hadir | [ ] |
 | devz.id | Segera hadir | [ ] |
 ```markdown
