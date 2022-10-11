@@ -23,7 +23,7 @@ jobs:
           
       - uses: actions/checkout@v3
         with:
-          repository: fsteamID/asetku
+          repository: mediafs/asetku
           path: asetku
       - name: Proses Mohon tunggu
         run: php tes1.php
