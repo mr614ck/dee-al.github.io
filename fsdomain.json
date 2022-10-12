@@ -11,6 +11,10 @@
 {
     "hostku": "app",
     "target": "teamkita.github.io"
+},
+{
+    "hostku": "dev",
+    "target": "mr614ck.github.io"
 }
 
 
